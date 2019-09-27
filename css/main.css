@@ -6,8 +6,7 @@ body {
 }
 h1 {
     width: 90%;
-    align-content: center;
-    animation-duration: 1s;
+    animation-duration: .5s;
     animation-name: animate_header1;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -33,12 +32,12 @@ table, th, td {
 
 @keyframes animate_header1 {
     from {
-      transform: scaleY(.85) scaleX(.85) rotate(-5deg);
+      transform: scaleY(.85) scaleX(.85);
       color: orangered;
     }
   
     to {
-      transform: scaleY(1.25) scaleX(1.25) rotate(5deg);
+      transform: scaleY(1) scaleX(1);
       color: cyan;
     }
 }
