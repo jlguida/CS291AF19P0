@@ -5,6 +5,7 @@ body {
     color: red;
 }
 h1 {
+    width: 90%;
     align-content: center;
     animation-duration: 1s;
     animation-name: animate_header1;
@@ -19,6 +20,7 @@ h2 {
     animation-direction: alternate;
 }
 img {
+    width: 100%;
     animation-duration: 3s;
     animation-name: animate_img;
     animation-iteration-count: infinite;
@@ -56,7 +58,7 @@ table, th, td {
 
 @keyframes animate_img {
     from {
-        opacity: 0.5;
+        opacity: 0;
     }
   
     to {
